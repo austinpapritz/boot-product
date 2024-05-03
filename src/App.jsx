@@ -33,7 +33,7 @@ function Shoe({ ...props }) {
 export default function App() {
   return (
     <Canvas shadows dpr={[1, 2]} camera={{ position: [0, 0, 1.1], fov: 50 }}>
-      <ambientLight intensity={2} />
+      <ambientLight intensity={4} />
       <spotLight position={[1, 6, 1.5]} angle={0.2} penumbra={1} intensity={3} castShadow shadow-mapSize={[2048, 2048]} color="#fbf4e1" />
       <spotLight position={[-5, 5, -1.5]} angle={0.03} penumbra={1} intensity={4} castShadow shadow-mapSize={[1024, 1024]} color="#f5e2b2" />
       <spotLight position={[5, 5, -5]} angle={0.3} penumbra={1} intensity={4} castShadow={true} shadow-mapSize={[256, 256]} color="#f4d076" />
