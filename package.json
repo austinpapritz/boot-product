@@ -1,0 +1,34 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Transparent backdrop and model staging",
+  "keywords": [
+    "contact shadows"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-three/drei": "7.20.1",
+    "@react-three/fiber": "7.0.18",
+    "@types/three": "0.133.1",
+    "react": "17.0.2",
+    "react-composer": "5.0.1",
+    "react-dom": "17.0.2",
+    "styled-components": "5.3.1",
+    "three": "0.133.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
