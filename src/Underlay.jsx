@@ -11,8 +11,9 @@ const Grid = styled.div`
   align-items: start;
   font-family: 'ThunderBlack';
   font-size: 4em;
-  line-height: 0.74em;
+  line-height: 2.5em;
   color: #fdb927;
+  text-align: center;
 
   @media (max-width: 425px) {
     grid-template-columns: 1fr;
@@ -25,7 +26,7 @@ const Left = styled.div`
   grid-template-rows: 1fr auto;
   width: 100%;
   height: 100%;
-  padding: 100px;
+  padding-top: 200px;
   white-space: nowrap;
   font-family: 'ThunderThin';
   line-height: 1em;
@@ -44,17 +45,18 @@ const Right = styled.div`
 `
 
 const Sub = styled.div`
-  align-self: end;
-  width: 200px;
+  align-self: center;
+  padding-top: 100px;
+  width: 100%;
   height: 2px;
   background: #006bb6;
 `
 
 const Jumbo = styled.div`
-  align-self: center;
-  padding: 100px;
+  align-self: top;
+  padding: 25px;
   font-size: 3em;
-  color: #006bb6;
+  color: #26282a;
 `
 
 const Label = styled.div`
@@ -87,12 +89,10 @@ export default function Underlay() {
           <br />
           <img src="./Golden-State-Warriors-Logo-PNG-Picture.png" alt="Golden State Warriors" height="200px" />
         </div>
-        <Sub />
       </Left>
       <Right>
-        <Jumbo>WARRIORS</Jumbo>
+        <Jumbo>FOOTWEAR</Jumbo>
       </Right>
-      <Label>EST. 1946</Label>
     </Grid>
   )
 }
