@@ -91,8 +91,9 @@ export default function Underlay() {
         </div>
       </Left>
       <Right>
-        <Jumbo>FOOTWEAR</Jumbo>
+        <Jumbo>FOOTWEAR.</Jumbo>
       </Right>
+      <Label>$149.99</Label>
     </Grid>
   )
 }
